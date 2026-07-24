@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amorfar Tandil — Gastronomía boutique en el corazón de Tandil. Cocina de autor, bodega seleccionada y una experiencia íntima que se saborea. Reservá tu mesa.">
+  <meta name="theme-color" content="#1A1A1A">
+  <title>Amorfar Tandil — Pasión en Cada Bocado</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#hero" class="header__logo">
+        <span class="header__logo-name">AMORFAR</span>
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <a href="#nosotros" class="header__link">Nosotros</a>
+        <a href="#menu" class="header__link">Menú</a>
+        <a href="#experiencia" class="header__link">Experiencia</a>
+        <a href="#equipo" class="header__link">Equipo</a>
+        <a href="#reservas" class="header__link">Reservas</a>
+      </nav>
+      <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20hacer%20una%20reserva." class="header__cta" target="_blank" rel="noopener">
+        Reservar mesa
+      </a>
+      <button class="header__burger" id="burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile nav -->
+    <div class="header__mobile" id="mobileNav">
+      <a href="#nosotros" class="header__mobile-link">Nosotros</a>
+      <a href="#menu" class="header__mobile-link">Menú</a>
+      <a href="#experiencia" class="header__mobile-link">Experiencia</a>
+      <a href="#equipo" class="header__mobile-link">Equipo</a>
+      <a href="#reservas" class="header__mobile-link">Reservas</a>
+      <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20hacer%20una%20reserva." class="header__mobile-cta" target="_blank" rel="noopener">Reservar mesa</a>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkMq4MlRv7FADDByCif3lXaI_UWUZ_XVnvOtOLABgNJgTEtpt5TClSKty1IiaqAAUH0MRUg4aEHBChsw2B8ZqNQZVtZ4-kHeNYly7k5y0JRwgaINBpuNHHqLRsvxdG9jYsMDwgnK-A-RqW0=s1360-w1360-h1020-rw" alt="Mesa iluminada en Amorfar Tandil" class="hero__img" loading="eager">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__tagline anim-fade">Tandil, Buenos Aires</p>
+      <h1 class="hero__title anim-fade">Pasión en<br><em>cada bocado</em></h1>
+      <p class="hero__subtitle anim-fade">Gastronomía boutique donde el detalle lo es todo. Cocina de autor, bodega cuidada y un espacio pensado para que cada momento se sienta especial.</p>
+      <div class="hero__actions anim-fade">
+        <a href="#menu" class="btn btn--primary">Explorar el menú</a>
+        <a href="#reservas" class="btn btn--outline">Reservá tu mesa</a>
+      </div>
+      <div class="hero__rating anim-fade">
+        <span class="hero__stars">★★★★★</span>
+        <span class="hero__score">4.9</span>
+        <span class="hero__reviews-text">· 77 reseñas en Google</span>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== DIFERENCIALES ====== -->
+  <section class="diff" id="nosotros">
+    <div class="container">
+      <div class="diff__header anim-up">
+        <span class="section-label">Qué nos define</span>
+        <h2 class="section-title">Tres pilares, <em>una filosofía</em></h2>
+      </div>
+      <div class="diff__grid">
+        <div class="diff__item anim-up">
+          <div class="diff__number">01</div>
+          <div class="diff__icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z"/><path d="M24 14v10l7 7"/></svg>
+          </div>
+          <h3 class="diff__title">Cocina de autor</h3>
+          <p class="diff__text">Cada plato nace de una receta pensada, con ingredientes de primera y una presentación que se cuida al milímetro. Nada es casualidad.</p>
+        </div>
+        <div class="diff__item anim-up">
+          <div class="diff__number">02</div>
+          <div class="diff__icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 38h32"/><path d="M12 38V18c0-6.6 5.4-12 12-12s12 5.4 12 12v20"/><path d="M20 38v-8h8v8"/></svg>
+          </div>
+          <h3 class="diff__title">Bodega seleccionada</h3>
+          <p class="diff__text">Una carta de vinos variada que acompaña cada plato. Desde un Malbec de garnacha hasta un blanco mineral para los más curiosos.</p>
+        </div>
+        <div class="diff__item anim-up">
+          <div class="diff__number">03</div>
+          <div class="diff__icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="16" r="8"/><path d="M8 44c0-8.8 7.2-16 16-16s16 7.2 16 16"/><path d="M36 20l4 4-4 4"/></svg>
+          </div>
+          <h3 class="diff__title">Atención personalizada</h3>
+          <p class="diff__text">Somos un proyecto de dos: Matías en la cocina y Maca al frente de casa. Cada mesa, cada detalle, cada sonrisa es nuestra firma.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== MENÚ ====== -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="menu__header anim-up">
+        <span class="section-label">Nuestra carta</span>
+        <h2 class="section-title">Lo que <em>preparamos</em></h2>
+        <p class="section-subtitle">Un menú reducido pero minucioso, donde cada ingrediente tiene su momento. Seleccioná una categoría para descubrirlo.</p>
+      </div>
+
+      <div class="menu__tabs anim-up">
+        <button class="menu__tab active" data-tab="entradas">Entradas</button>
+        <button class="menu__tab" data-tab="principales">Principales</button>
+        <button class="menu__tab" data-tab="postres">Postres</button>
+        <button class="menu__tab" data-tab="vinos">Vinos</button>
+        <button class="menu__tab" data-tab="bebidas">Bebidas</button>
+      </div>
+
+      <!-- ENTRADAS -->
+      <div class="menu__category active" data-category="entradas">
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Jamón de cordero</h4>
+              <span class="menu__item-price">$12.500</span>
+            </div>
+            <p class="menu__item-desc">Jamón artesanal de cordero patagónico, servido con pan casero horneado en nuestra cocina y pesto de albahaca fresca.</p>
+            <span class="menu__item-tag">⭐ Recomendado</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Ensalada César</h4>
+              <span class="menu__item-price">$20.000</span>
+            </div>
+            <p class="menu__item-desc">Verdes agroecológicos, crotones caseros, pollo apanado, láminas de parmesano y salsa César hecha en el momento.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tortilla de papas</h4>
+              <span class="menu__item-price">$9.800</span>
+            </div>
+            <p class="menu__item-desc">La clásica española, dorada por fuera y jugosa por dentro, acompañada de papas fritas caseras con romero.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Bruschetta de burrata</h4>
+              <span class="menu__item-price">$11.200</span>
+            </div>
+            <p class="menu__item-desc">Pan de masa madre tostado, burrata cremosa, tomates cherry confitados y reducción de balsámico de Módena.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRINCIPALES -->
+      <div class="menu__category" data-category="principales">
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Cordero braseado</h4>
+              <span class="menu__item-price">$28.500</span>
+            </div>
+            <p class="menu__item-desc">Paleta de cordero braseada 8 horas, puré de boniato ahumado, glaseado de miel y hierbas provenzales.</p>
+            <span class="menu__item-tag">⭐ signature</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Risotto de hongos</h4>
+              <span class="menu__item-price">$19.000</span>
+            </div>
+            <p class="menu__item-desc">Arroz arborio cremoso con mix de hongos silvestres, parmesano 24 meses y un toque de trufa negra.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Salmón a la parrilla</h4>
+              <span class="menu__item-price">$26.000</span>
+            </div>
+            <p class="menu__item-desc">Filete de salmón con piel crujiente, quinoa tricolor, espárragos al vapor y salsa de limón y eneldo.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Ojo de bife</h4>
+              <span class="menu__item-price">$32.000</span>
+            </div>
+            <p class="menu__item-desc">Corte de 300g de lomo Angus, jugoso al punto, con papas rústicas al horno y chimichurri de la casa.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- POSTRES -->
+      <div class="menu__category" data-category="postres">
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tiramisú de la casa</h4>
+              <span class="menu__item-price">$8.500</span>
+            </div>
+            <p class="menu__item-desc">Capas de bizcochuelo empapado en café espresso, crema de mascarpone y cacao amargo holandés.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Flan con dulce de leche</h4>
+              <span class="menu__item-price">$7.000</span>
+            </div>
+            <p class="menu__item-desc">Flan casero de vainilla bourbon, cremoso y firme, con dulce de leche repostero y crema fresca batida.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Petit gâteau</h4>
+              <span class="menu__item-price">$9.200</span>
+            </div>
+            <p class="menu__item-desc">Fondant de chocolate amargo con centro fundente, helado de vainilla artesanal y frutos rojos frescos.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- VINOS -->
+      <div class="menu__category" data-category="vinos">
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Malbec Reserva — Catena Zapata</h4>
+              <span class="menu__item-price">$18.000</span>
+            </div>
+            <p class="menu__item-desc">Notas de ciruela madura, violeta y un toque de roble tostado. Taninos suaves, final largo. Valle de Uco.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Chardonnay — Zuccardi</h4>
+              <span class="menu__item-price">$14.500</span>
+            </div>
+            <p class="menu__item-desc">Blanco mineral con notas cítricas y florales. Fermentado en barrica, elegante y fresco. Perfecto con mar.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Pinot Noir — Luigi Bosca</h4>
+              <span class="menu__item-price">$16.000</span>
+            </div>
+            <p class="menu__item-desc">Fragancia de frutos rojos, cereza y especias sutiles. Ligero, aromático, ideal para platos de cordero.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Torrontés — Colomé</h4>
+              <span class="menu__item-price">$13.000</span>
+            </div>
+            <p class="menu__item-desc">Aromático y tropical, con notas de mosqueta, durazno y un final cítrico refrescante. Cafayate, Salta.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BEBIDAS -->
+      <div class="menu__category" data-category="bebidas">
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Coca-Cola original 354ml</h4>
+              <span class="menu__item-price">$4.000</span>
+            </div>
+            <p class="menu__item-desc">La clásica, servida bien fría en botella de vidrio.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Coca-Cola Zero 354ml</h4>
+              <span class="menu__item-price">$4.000</span>
+            </div>
+            <p class="menu__item-desc">Sin azúcar, mismo sabor. Botella de vidrio.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Sprite Lima Limón 354ml</h4>
+              <span class="menu__item-price">$4.000</span>
+            </div>
+            <p class="menu__item-desc">Refresco de lima limón sin azúcares, en botella de vidrio.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Villavicencio 500ml</h4>
+              <span class="menu__item-price">$4.000</span>
+            </div>
+            <p class="menu__item-desc">Agua mineral de los Andes. Disponible sin gas o con gas.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Agua Villavicencio con gas 500ml</h4>
+              <span class="menu__item-price">$4.000</span>
+            </div>
+            <p class="menu__item-desc">Versión con gas, perfecta para acompañar platos con grasa.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__footer anim-up">
+        <p>El menú puede variar según disponibilidad de ingredientes de temporada.</p>
+        <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20consultar%20por%20el%20men%C3%BA%20completo." class="btn btn--outline btn--sm" target="_blank" rel="noopener">Consultá por el menú completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ESTRELLA: CORDERO ====== -->
+  <section class="star" id="experiencia">
+    <div class="star__bg">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWly4XN8BzMXncMX_3ovsLqX1KPvs6qZyMQi-d0jCNmclUHBAsQVGTFr7lQzlV3wtik1ye5oojDpZ_ZZ8tKPqUdkSryrSgZ6pGqiKf-AtrU6ntWWuowfkjb20bz81hD4_gJ_BdoMBa3LgYWg=s1360-w1360-h1020-rw" alt="Cordero braseado de Amorfar" class="star__img" loading="lazy">
+      <div class="star__overlay"></div>
+    </div>
+    <div class="container star__content">
+      <div class="star__text anim-up">
+        <span class="section-label section-label--light">Plato estrella</span>
+        <h2 class="star__title">Cordero braseado<br><em>de la casa</em></h2>
+        <p class="star__desc">Ocho horas de paciencia. Paleta de cordero que se deshace al contacto, con un puré de boniato ahumado que le hace sombra a cualquier guarnición. Glaseado de miel y hierbas provenzales que cierra el plato con una nota dulce y aromática.</p>
+        <p class="star__quote">"Definitivamente vamos a volver a probar los otros platos" — reseña de Google</p>
+        <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quiero%20reservar%20para%20probar%20el%20cordero%20braseado." class="btn btn--primary btn--light" target="_blank" rel="noopener">Quiero probarlo → Reservá</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALERÍA ====== -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="gallery__header anim-up">
+        <span class="section-label">El espacio</span>
+        <h2 class="section-title">Así se vive <em>Amorfar</em></h2>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--wide anim-up">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlPtg1r4qKti57LhoQj7esOnNvWZ4g5M_hORY6zXodqNEXoGQWtg3xEhE4rEDZt_B0lGsoXigQaSBN9UzvN5acKNEOxkwzhdOsyKldqf_4A1Exj4dPO4V77cNryK46Y65VeJmbfkaMZhmU=s1360-w1360-h1020-rw" alt="Interior de Amorfar Tandil" loading="lazy">
+      </div>
+      <div class="gallery__item anim-up">
+        <img src="https://www.tandil.tur.ar/contenido/alojamientos/grande/2026/01/13/1768304355-9612.webp" alt="Vino y comida en Amorfar" loading="lazy">
+      </div>
+      <div class="gallery__item anim-up">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4BPMZZMUTx676pEbKapaovc4ZF7c-9on0rFJwCG1MbAcaEXgdsVhP0NhfZsS9Ce1oHq_caNcm0ohVrm7ZndQMmBdp3R1qMHnYweEKM7g4gHVKzHX0RebYS76ZUTdmFriO7tLrTgeZrSMH=s1360-w1360-h1020-rw" alt="Tortilla con papas fritas" loading="lazy">
+      </div>
+      <div class="gallery__item anim-up">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnR16lOJYRJBRbAZdxx-mQJkFt3f7Erju2Fz2cuP8CqWlxVYGd6fDxdjoKnOIpPD_-7ClwDKdW7NuHHT26B1hef2cApAGTOTC34vOtNSY-VNCzJvkVLlFnVa29LsLL8C7zL-POd2US1mkYz=s1360-w1360-h1020-rw" alt="Mesa larga para grupos" loading="lazy">
+      </div>
+      <div class="gallery__item gallery__item--wide anim-up">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmZTpjIGtgOdG0HMTgxaYil4tSceStR7DdDtyagPxFAazE-9-DBC07uNk5KAFfnNNUoGxojF8liw_ApjgYOdbIB2zTllY6Wf2q2nL7KNKZtK79WOu-yYCppabUw6EUaMZBaoVUTX64g9xg=s1360-w1360-h1020-rw" alt="Personas disfrutando en Amorfar" loading="lazy">
+      </div>
+      <div class="gallery__item anim-up">
+        <img src="https://lh3.googleusercontent.com/proxy/KM1gWg8rDa13-CKt5okux6fxqwlrn5MwFbbup21RQi13xBSMRPgG10opu56we_HiX8Q7WP4tMQo-xSzJaNdK_fZb3R8TKVp5_rUVPz2EBFsQ0lDGwCkK2tk-WZmYMSaUPoR0r6riFsYGMkUWpapb1_VDYe3X2w=s1360-w1360-h1020-rw" alt="Botella de vino seleccionada" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIOS ====== -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="testimonials__header anim-up">
+        <span class="section-label">Lo que dicen</span>
+        <h2 class="section-title">Nuestros comensales <em>hablan</em></h2>
+        <div class="testimonials__rating">
+          <span class="testimonials__stars">★★★★★</span>
+          <span class="testimonials__score">4.9</span>
+          <span class="testimonials__count">basado en 77 reseñas de Google</span>
+        </div>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonials__card anim-up">
+          <div class="testimonials__avatar">M</div>
+          <div class="testimonials__stars-small">★★★★★</div>
+          <p class="testimonials__text">"Una experiencia excelente de principio a fin. Ambiente cálido, elegante y muy cuidado. Los platos, además de estar bellamente presentados, fueron deliciosos. Sin duda, un lugar para volver y recomendar."</p>
+          <div class="testimonials__meta">
+            <span class="testimonials__name">María L.</span>
+            <span class="testimonials__date">hace 3 semanas</span>
+          </div>
+        </div>
+        <div class="testimonials__card anim-up">
+          <div class="testimonials__avatar">R</div>
+          <div class="testimonials__stars-small">★★★★★</div>
+          <p class="testimonials__text">"Buscábamos dónde cenar y nos guiamos por las buenas reseñas. No solo excelente gastronómicamente, sino que la atención y el espacio están a la altura. Espero volver a Tandil y seguir encontrándolos ✨"</p>
+          <div class="testimonials__meta">
+            <span class="testimonials__name">Roberto G.</span>
+            <span class="testimonials__date">hace 1 mes</span>
+          </div>
+        </div>
+        <div class="testimonials__card anim-up">
+          <div class="testimonials__avatar">C</div>
+          <div class="testimonials__stars-small">★★★★★</div>
+          <p class="testimonials__text">"La atención de Macarena es sobresaliente. El menú es reducido pero cuidado. Nos gustó mucho que es un proyecto de dos personas, él chef y ella atendiendo. Todo muy cuidado y personalizado."</p>
+          <div class="testimonials__meta">
+            <span class="testimonials__name">Carolina M.</span>
+            <span class="testimonials__date">hace 2 meses</span>
+          </div>
+        </div>
+        <div class="testimonials__card anim-up">
+          <div class="testimonials__avatar">P</div>
+          <div class="testimonials__stars-small">★★★★★</div>
+          <p class="testimonials__text">"Fuimos a festejar un cumpleaños en grupo y la experiencia fue espectacular. El lugar es hermoso, súper íntimo y re cómodo. La comida excelente, todo riquísimo. Sin duda volvería a ir. Súper recomendado."</p>
+          <div class="testimonials__meta">
+            <span class="testimonials__name">Patricia S.</span>
+            <span class="testimonials__date">hace 1 mes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== MOMENTOS ====== -->
+  <section class="moments">
+    <div class="container">
+      <div class="moments__header anim-up">
+        <span class="section-label">Elegí tu momento</span>
+        <h2 class="section-title">Noche especial, <em>siempre</em></h2>
+      </div>
+      <div class="moments__grid">
+        <div class="moments__card anim-up">
+          <div class="moments__img-wrap">
+            <img src="https://cdn.eleco.com.ar/media/2026/06/tandil_gourmet_amorfar_27_06_26_7.webp" alt="Amorfar al atardecer" loading="lazy">
+          </div>
+          <div class="moments__info">
+            <h3 class="moments__title">La cena íntima</h3>
+            <p class="moments__desc">Miércoles a sábado, desde las 20hs. Mesas limitadas, atención personalizada, un espacio que se siente tuyo.</p>
+            <span class="moments__hours">20:00 – 24:00 / 1:00</span>
+          </div>
+        </div>
+        <div class="moments__card anim-up">
+          <div class="moments__img-wrap">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkMq4MlRv7FADDByCif3lXaI_UWUZ_XVnvOtOLABgNJgTEtpt5TClSKty1IiaqAAUH0MRUg4aEHBChsw2B8ZqNQZVtZ4-kHeNYly7k5y0JRwgaINBpuNHHqLRsvxdG9jYsMDwgnK-A-RqW0=s1360-w1360-h1020-rw" alt="Iluminación en mesa" loading="lazy">
+          </div>
+          <div class="moments__info">
+            <h3 class="moments__title">El almuerzo de sábado</h3>
+            <p class="moments__desc">Sábados al mediodía, una ventana para disfrutar de la cocina en plena luz natural. Reservá con anticipación.</p>
+            <span class="moments__hours">12:30 – 16:00</span>
+          </div>
+        </div>
+        <div class="moments__card anim-up">
+          <div class="moments__img-wrap">
+            <img src="https://www.tandil.tur.ar/contenido/alojamientos/grande/2026/01/13/1768304355-9612.webp" alt="Vino y plato" loading="lazy">
+          </div>
+          <div class="moments__info">
+            <h3 class="moments__title">La previa con amigos</h3>
+            <p class="moments__desc">Viernes y sábado noche. Una copa, una entrada para compartir, el inicio perfecto de una noche en Tandil.</p>
+            <span class="moments__hours">20:00 – 1:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== HISTORIA Y EQUIPO ====== -->
+  <section class="team" id="equipo">
+    <div class="container">
+      <div class="team__grid">
+        <div class="team__story anim-up">
+          <span class="section-label">Nuestra historia</span>
+          <h2 class="section-title">Dos personas, <em>un sueño</em></h2>
+          <p class="team__text">Amorfar nació de la pasión de Matías y Maca por crear algo diferente en Tandil. Él, con las manos en la masa y la cabeza en cada sabor; ella, haciendo que cada comensal se sienta como en casa. Un proyecto de a dos, donde cada detalle —desde la iluminación hasta el último plato de la carta— es una extensión de lo que creemos: que la buena comida se vive, no solo se come.</p>
+          <p class="team__text">El nombre viene de esa idea de "amor lejano", como un avión de papel que viaja y vuelve. Un viaje sensorial que empieza en Tandil y termina en tu memoria.</p>
+        </div>
+        <div class="team__members anim-up">
+          <div class="team__member">
+            <div class="team__member-avatar">M</div>
+            <h4 class="team__member-name">Matías</h4>
+            <span class="team__member-role">Chef & Fundador</span>
+            <p class="team__member-desc">Las manos detrás de cada plato. Creatividad, técnica y una obsesión silenciosa por la consistencia.</p>
+          </div>
+          <div class="team__member">
+            <div class="team__member-avatar">M</div>
+            <h4 class="team__member-name">Maca</h4>
+            <span class="team__member-role">Frente de casa</span>
+            <p class="team__member-desc">La cara de Amorfar. Hace que cada mesa sea una experiencia, no solo una cena. Atención con alma.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PRENSA ====== -->
+  <section class="press">
+    <div class="container">
+      <div class="press__header anim-up">
+        <span class="section-label">En los medios</span>
+        <h2 class="section-title">Lo que <em>dicen de nosotros</em></h2>
+      </div>
+      <div class="press__grid">
+        <div class="press__item anim-up">
+          <p class="press__quote">"Amorfar es ese descubrimiento que te hace sentir que Tandil tiene una escena gastronómica mucho más profunda de lo que imaginabas."</p>
+          <span class="press__source">— Tandil Gourmet</span>
+        </div>
+        <div class="press__item anim-up">
+          <p class="press__quote">"Un espacio donde la cocina de autor se encuentra con la calidez de un hogar. El cordero braseado es, sin duda, una obra maestra."</p>
+          <span class="press__source">— El Eco</span>
+        </div>
+        <div class="press__item anim-up">
+          <p class="press__quote">"Si tenés que elegir un solo lugar para cenar en Tandil, elegí Amorfar. No te vas a arrepentir."</p>
+          <span class="press__source">— Guía Tandil</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== RESERVAS ====== -->
+  <section class="reserve" id="reservas">
+    <div class="container">
+      <div class="reserve__grid">
+        <div class="reserve__info anim-up">
+          <span class="section-label">Reservá tu mesa</span>
+          <h2 class="section-title">Hagamos algo <em>especial</em></h2>
+          <p class="reserve__desc">Completá el formulario y te contactamos por WhatsApp para confirmar tu reserva. Cuantos más detalles nos des, mejor lo preparamos todo para vos.</p>
+          <div class="reserve__details">
+            <div class="reserve__detail">
+              <span class="reserve__detail-label">Dirección</span>
+              <span class="reserve__detail-value">14 de Julio 571, Tandil</span>
+            </div>
+            <div class="reserve__detail">
+              <span class="reserve__detail-label">Horarios</span>
+              <span class="reserve__detail-value">Miércoles a sábado, 20:00 – 1:00<br>Sábados también 12:30 – 16:00</span>
+            </div>
+            <div class="reserve__detail">
+              <span class="reserve__detail-label">WhatsApp</span>
+              <span class="reserve__detail-value">+54 9 2494 68-4996</span>
+            </div>
+          </div>
+        </div>
+        <div class="reserve__form-wrap anim-up">
+          <form class="reserve__form" id="reserveForm">
+            <div class="reserve__field">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="reserve__field">
+              <label for="phone">Teléfono</label>
+              <input type="tel" id="phone" name="phone" placeholder="Ej: 2494 12 3456" required>
+            </div>
+            <div class="reserve__field-row">
+              <div class="reserve__field">
+                <label for="date">Fecha</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+              <div class="reserve__field">
+                <label for="time">Horario</label>
+                <select id="time" name="time" required>
+                  <option value="">Elegí</option>
+                  <option value="12:30">12:30 (almuerzo sáb)</option>
+                  <option value="13:00">13:00 (almuerzo sáb)</option>
+                  <option value="20:00">20:00</option>
+                  <option value="20:30">20:30</option>
+                  <option value="21:00">21:00</option>
+                  <option value="21:30">21:30</option>
+                  <option value="22:00">22:00</option>
+                </select>
+              </div>
+            </div>
+            <div class="reserve__field-row">
+              <div class="reserve__field">
+                <label for="guests">Personas</label>
+                <select id="guests" name="guests" required>
+                  <option value="">¿Cuántos?</option>
+                  <option value="1">1 persona</option>
+                  <option value="2">2 personas</option>
+                  <option value="3">3 personas</option>
+                  <option value="4">4 personas</option>
+                  <option value="5">5 personas</option>
+                  <option value="6">6 personas</option>
+                  <option value="7+">7 o más</option>
+                </select>
+              </div>
+              <div class="reserve__field">
+                <label for="occasion">Ocasión</label>
+                <select id="occasion" name="occasion">
+                  <option value="">Opcional</option>
+                  <option value="cumpleaños">Cumpleaños</option>
+                  <option value="aniversario">Aniversario</option>
+                  <option value="cita">Cita romántica</option>
+                  <option value="reunion">Reunión de amigos</option>
+                  <option value="otro">Otra</option>
+                </select>
+              </div>
+            </div>
+            <div class="reserve__field">
+              <label for="notes">Mensaje</label>
+              <textarea id="notes" name="notes" placeholder="¿Algo que debamos saber? (alergias, preferencias, sorpresa...)" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar por WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo">AMORFAR</span>
+          <p class="footer__tagline">Pasión en cada bocado</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/amorfartandil" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@amorfar6" class="footer__social-link" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__info">
+          <h4 class="footer__heading">Visitános</h4>
+          <p class="footer__text">14 de Julio 571<br>B7000 Tandil, Buenos Aires</p>
+          <a href="tel:+5492494684996" class="footer__text footer__link">+54 9 2494 68-4996</a>
+        </div>
+        <div class="footer__info">
+          <h4 class="footer__heading">Horarios</h4>
+          <p class="footer__text">
+            Lunes: Cerrado<br>
+            Martes: Cerrado<br>
+            Miércoles: 20:00 – 24:00<br>
+            Jueves: 20:00 – 24:00<br>
+            Viernes: 20:00 – 1:00<br>
+            Sábado: 12:30 – 16:00 / 20:00 – 1:00<br>
+            Domingo: Cerrado
+          </p>
+        </div>
+        <div class="footer__map">
+          <h4 class="footer__heading">Ubicación</h4>
+          <iframe
+            src="https://maps.google.com/maps?q=14+de+Julio+571+Tandil+Buenos+Aires+Argentina&output=embed"
+            width="100%"
+            height="220"
+            style="border:0; border-radius: 8px;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Amorfar Tandil en Google Maps">
+          </iframe>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Amorfar Tandil. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== WHATSAPP FLUTUANTE ====== -->
+  <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20tengo%20una%20consulta." class="whatsapp-float" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.132 6.744 3.054 9.374L1.054 30.4l5.232-1.974A15.912 15.912 0 0 0 16.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.334 22.608c-.39 1.096-1.932 2.006-3.166 2.27-.842.18-1.942.322-5.648-1.21-4.744-1.962-7.792-6.762-8.028-7.076-.226-.314-1.87-2.496-1.87-4.762s1.188-3.376 1.612-3.844c.39-.428.938-.572 1.25-.572.146 0 .278.008.398.014.426.018.638.044.916.714.35.836 1.198 2.914 1.302 3.126.104.212.208.464.062.742-.136.288-.256.466-.468.718-.212.252-.424.446-.636.718-.196.246-.412.51-.172.934.242.424 1.074 1.772 2.304 2.872 1.582 1.418 2.836 1.858 3.338 2.068.39.164.728.124.992-.22.262-.342 1.122-1.304 1.42-1.76.294-.454.588-.378.998-.226.412.152 2.616 1.232 3.064 1.458.448.226.746.338.854.526.108.188.108 1.092-.282 2.188z"/></svg>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
