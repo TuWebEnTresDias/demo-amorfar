@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="base-uri 'self'; object-src 'none'; form-action 'none'">
+<script src="site-security.js"></script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Amorfar Tandil — Gastronomía boutique en el corazón de Tandil. Cocina de autor, bodega seleccionada y una experiencia íntima que se saborea. Reservá tu mesa.">
@@ -29,7 +33,7 @@
         <a href="#equipo" class="header__link">Equipo</a>
         <a href="#reservas" class="header__link">Reservas</a>
       </nav>
-      <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20hacer%20una%20reserva." class="header__cta" target="_blank" rel="noopener">
+      <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20hacer%20una%20reserva." class="header__cta" target="_blank" rel="noopener noreferrer">
         Reservar mesa
       </a>
       <button class="header__burger" id="burger" aria-label="Abrir menú">
@@ -43,7 +47,7 @@
       <a href="#experiencia" class="header__mobile-link">Experiencia</a>
       <a href="#equipo" class="header__mobile-link">Equipo</a>
       <a href="#reservas" class="header__mobile-link">Reservas</a>
-      <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20hacer%20una%20reserva." class="header__mobile-cta" target="_blank" rel="noopener">Reservar mesa</a>
+      <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20hacer%20una%20reserva." class="header__mobile-cta" target="_blank" rel="noopener noreferrer">Reservar mesa</a>
     </div>
   </header>
 
@@ -300,7 +304,7 @@
 
       <div class="menu__footer anim-up">
         <p>El menú puede variar según disponibilidad de ingredientes de temporada.</p>
-        <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20consultar%20por%20el%20men%C3%BA%20completo." class="btn btn--outline btn--sm" target="_blank" rel="noopener">Consultá por el menú completo</a>
+        <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quisiera%20consultar%20por%20el%20men%C3%BA%20completo." class="btn btn--outline btn--sm" target="_blank" rel="noopener noreferrer">Consultá por el menú completo</a>
       </div>
     </div>
   </section>
@@ -317,7 +321,7 @@
         <h2 class="star__title">Cordero braseado<br><em>de la casa</em></h2>
         <p class="star__desc">Ocho horas de paciencia. Paleta de cordero que se deshace al contacto, con un puré de boniato ahumado que le hace sombra a cualquier guarnición. Glaseado de miel y hierbas provenzales que cierra el plato con una nota dulce y aromática.</p>
         <p class="star__quote">"Definitivamente vamos a volver a probar los otros platos" — reseña de Google</p>
-        <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quiero%20reservar%20para%20probar%20el%20cordero%20braseado." class="btn btn--primary btn--light" target="_blank" rel="noopener">Quiero probarlo → Reservá</a>
+        <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20quiero%20reservar%20para%20probar%20el%20cordero%20braseado." class="btn btn--primary btn--light" target="_blank" rel="noopener noreferrer">Quiero probarlo → Reservá</a>
       </div>
     </div>
   </section>
@@ -581,7 +585,7 @@
               <label for="notes">Mensaje</label>
               <textarea id="notes" name="notes" placeholder="¿Algo que debamos saber? (alergias, preferencias, sorpresa...)" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn--primary btn--full">Enviar por WhatsApp</button>
+            <button type="submit" class="btn btn--primary btn--full" disabled data-security-submit>Enviar por WhatsApp</button>
           </form>
         </div>
       </div>
@@ -596,10 +600,10 @@
           <span class="footer__logo">AMORFAR</span>
           <p class="footer__tagline">Pasión en cada bocado</p>
           <div class="footer__social">
-            <a href="https://www.instagram.com/amorfartandil" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+            <a href="https://www.instagram.com/amorfartandil" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
             </a>
-            <a href="https://www.tiktok.com/@amorfar6" class="footer__social-link" target="_blank" rel="noopener" aria-label="TikTok">
+            <a href="https://www.tiktok.com/@amorfar6" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
             </a>
           </div>
@@ -641,10 +645,10 @@
   </footer>
 
   <!-- ====== WHATSAPP FLUTUANTE ====== -->
-  <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20tengo%20una%20consulta." class="whatsapp-float" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <a href="https://wa.me/5492494684996?text=Hola%20Amorfar%2C%20tengo%20una%20consulta." class="whatsapp-float" id="whatsappFloat" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
     <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.132 6.744 3.054 9.374L1.054 30.4l5.232-1.974A15.912 15.912 0 0 0 16.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.334 22.608c-.39 1.096-1.932 2.006-3.166 2.27-.842.18-1.942.322-5.648-1.21-4.744-1.962-7.792-6.762-8.028-7.076-.226-.314-1.87-2.496-1.87-4.762s1.188-3.376 1.612-3.844c.39-.428.938-.572 1.25-.572.146 0 .278.008.398.014.426.018.638.044.916.714.35.836 1.198 2.914 1.302 3.126.104.212.208.464.062.742-.136.288-.256.466-.468.718-.212.252-.424.446-.636.718-.196.246-.412.51-.172.934.242.424 1.074 1.772 2.304 2.872 1.582 1.418 2.836 1.858 3.338 2.068.39.164.728.124.992-.22.262-.342 1.122-1.304 1.42-1.76.294-.454.588-.378.998-.226.412.152 2.616 1.232 3.064 1.458.448.226.746.338.854.526.108.188.108 1.092-.282 2.188z"/></svg>
   </a>
 
-  <script src="./script.js"></script>
+  <script data-site-script src="./script.js"></script>
 </body>
 </html>
